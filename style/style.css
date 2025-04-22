@@ -1,0 +1,514 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    min-height: 70px;
+    background-color: #232526;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+nav ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    column-gap: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(10px,3vw,13px);
+    flex-wrap: wrap;
+    align-items: center;
+    transition: 0.5s;
+}
+span g{
+    fill: white;
+}
+nav ul li:hover{
+    color: silver;
+    transition: 0.5s;
+}
+.sec1{
+    width: 100%;
+    min-height: 680px;
+    background-image: url("..//image/carbgimg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.sss77{
+    width: clamp(200px,70vw,450px);
+    min-height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.sec1 .logo{
+    width:140px;
+    height:140px;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sss77 span{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+.logo g{
+    fill: white;
+ 
+}
+.sec1 h1{
+    font-size: clamp(22px,4vw,55px);
+
+}
+.sec1 .soc{
+    width: clamp(120px,40vw,180px);
+    min-height: 50px ;
+    margin-top: 100px;
+}
+.soc ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+
+}
+.sec2{
+    width: 100%;
+    min-height:650px;
+    background-image: url("..//image/blackbgimg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.sec2 h2{
+    font-size: clamp(15px,4vw,27px);
+    margin-top: 60px;
+}
+.sec2 .san{
+    display: inline-block;
+    width: clamp(25px,3vw,87px);
+    height: 2px;
+    background-color: white;
+    margin-top: 30px;
+
+}
+.sec2 .svgshead{
+    width: clamp(500px,80vw,800px);
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    flex-wrap: wrap;
+
+}
+.svgs1{
+    width: clamp(150px,60vw,180px);
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.svgs2{
+    width: clamp(150px,60vw,230px);
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.svgs3{
+    width: clamp(150px,60vw,200px);
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sec3{
+    width: 100%;
+    min-height: 950px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.sec3 .ss{
+    font-size: clamp(20px,5vw,33px);
+  
+}
+.sec3 .bar{
+    display: inline-block;
+    width: clamp(25px,3vw,87px);
+    height: 2px;
+    background-color: black;
+}
+.sec3 .sss{
+    font-size: clamp(12px,4vw,17px);
+    letter-spacing: 1px;
+   margin-bottom: 30px;
+    text-align: center;
+    
+}
+.sec3 .allseos{
+    width: clamp(500px,80vw,1300px);
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sec3 .seo1{
+    width: clamp(150px,40vw,33%);
+    height: 320px;
+    background-image: url("..//image/kaputfar.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.seo1 .ghost{
+    width: 100%;
+    height: 320px;
+    background-color: rgba(87, 72, 82, 0.473);
+    opacity: 0;
+    transition: 0.4s;
+}
+.ghost{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ghost p{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.ghost span{
+    font-size: 14px;
+    line-height: 22px;
+  
+}
+
+.sec3 .seo1:hover .ghost{
+    opacity: 1;
+    transition: 0.4s;
+}
+.sec3 .seo2{
+    width: clamp(150px,40vw,33%);
+    height: 320px;
+    background-image: url("..//image/spitakkapot.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+.seo2 .ghost{
+    width: 100%;
+    height: 320px;
+    background-color: rgba(87, 72, 82, 0.473);
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.sec3 .seo2:hover .ghost{
+    opacity: 1;
+    transition: 0.4s;
+}
+.sec3 .seo3{
+    width: clamp(150px,40vw,33%);
+    height: 320px;
+    background-image: url("..//image/sevfar.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.seo3 .ghost{
+    width: 100%;
+    height: 320px;
+    background-color: rgba(87, 72, 82, 0.473);
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.sec3 .seo3:hover .ghost{
+    opacity: 1;
+    transition: 0.4s;
+}
+.sec3 .seo4{
+    width: clamp(150px,40vw,33%);
+    height: 320px;
+    background-image: url("..//image/spitakfar.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.seo4 .ghost{
+    width: 100%;
+    height: 320px;
+    background-color: rgba(87, 72, 82, 0.473);
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.sec3 .seo4:hover .ghost{
+    opacity: 1;
+    transition: 0.4s;
+}
+.sec3 .seo5{
+    width: clamp(150px,40vw,33%);
+    height: 320px;
+    background-image: url("..//image/karmirruyl.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.seo5 .ghost{
+    width: 100%;
+    height: 320px;
+    background-color: rgba(87, 72, 82, 0.473);
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.sec3 .seo5:hover .ghost{
+    opacity: 1;
+    transition: 0.4s;
+}
+.sec3 .seo6{
+    width: clamp(150px,40vw,33%);
+    height: 320px;
+    background-image: url("..//image/spitakhayeliaxch.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+.seo6 .ghost{
+    width: 100%;
+    height: 320px;
+    background-color: rgba(87, 72, 82, 0.473);
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.sec3 .seo6:hover .ghost{
+    opacity: 1;
+    transition: 0.4s;
+}
+.sec4{
+    width: 100%;
+    min-height: 700px;
+    background-image: url("..//image/klyuchnerbgimg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.prime{
+    width: clamp(300px,80vw,670px);
+    min-height: 490px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+    
+
+}
+.prime p{
+    font-size: clamp(15px,4vw,30px);
+    letter-spacing: 2px;
+    
+    
+}
+.prime .san{
+    display: inline-block;
+    width: clamp(25px,2vw,87px);
+    height: 2px;
+    background-color: black;
+
+}
+.prime span{
+    line-height: 25px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: clamp(12px,4vw,16px);
+    letter-spacing: 1px;
+}
+.sec5{
+    width: 100%;
+    min-height: 550px;
+    background-image: url("..//image/axchiktxabgimg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.sec6{
+    width: 100%;
+    min-height: 1200px;
+    background-image: url("..//image/klyuchnerbgimg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec6 img{
+    width: clamp(200px,100%,20%);
+    min-height: 200px;
+}
+.sec6 .whitebox{
+    width: clamp(350px,100%,45%);
+    min-height: 750px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    row-gap: 30px;
+}
+.whitebox p{
+    font-size: clamp(15px,4vw,35px);
+}
+.whitebox .childbox{
+    width: clamp(350px,100%,95%);
+    min-height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 65px;
+    flex-wrap: wrap;
+}
+
+ .whitebox .san{
+    display: inline-block;
+    width: clamp(25px,2vw,87px);
+    height: 2px;
+    background-color: black;
+}
+
+.childbox .tell{
+    width: clamp(150px,100%,33%);
+    min-height: 280px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    letter-spacing: 1px;
+
+}
+.tell :first-child{
+    margin-top: 15px;
+}
+.tell a{
+    text-decoration: none;
+    color: black;
+}
+.tell .shsh{
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.childbox .formbox{
+    width: clamp(150px,100%,50%);
+    min-height: 510px;
+    display: flex;
+    flex-direction: column;
+}
+.formbox p{
+    font-size: clamp(12px,4vw,16px);
+    line-height: 40px;
+}
+
+.formbox input{
+    width: clamp(150px,100%,95%);
+    min-height: 25px;
+}
+.formbox textarea{
+    width: clamp(150px,100%,95%);
+    min-height: 120px;
+    resize: none;
+}
+.formbox button{
+    width: clamp(150px,100%,95%);
+    min-height: 30px;
+    background-color: #232526;
+    border: none;
+    color: white;
+    margin-top: 10px;
+}
+.sec7{
+    width: 100%;
+    min-height: 150px;
+    background-color:#232526 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.sec7 ul{
+    list-style: none;
+    display: flex;
+    column-gap: 15px;
+}
+.sec7 p{
+    font-size: clamp(12px,3vw,14px);
+}
+.sec7 a{
+    color: white;
+}
+
+.sec7 button{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    border:1px solid whitesmoke;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
